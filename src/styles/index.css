@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #acacac;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+h1 {
+  color: BLACK;
+  font-size: 6vh;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: BLACK;
+}
+
+p {
+  color: #555;
+}
+
+.error {
+  color: #c0392b;
+  text-align: center;
+}
+
+.price{
+  color: #555;
+  font-size: 4vh;
+  margin-top: 0;
+}
+
+.me{color: #555;
+  font-size: 8vh;
+text-align: center;
+margin: 4vh 0 4vh 0;}

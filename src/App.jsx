@@ -21,7 +21,7 @@ function App() {
           setTours(tours)
           setoriginalTours(tours)
             setIsLoading(false)
-            setIsError(true)
+            setIsError(false)
         }).catch((error) => { console.log(error) })
     }, [])
 
@@ -39,6 +39,7 @@ if(isError){
 
   return (
     <main>
+      <div className="me">Matthew's Tour Website</div>
     <section className='container'>
       <Tour tours={tours} remove={removeTours}/>
       <div className='buttons'>
