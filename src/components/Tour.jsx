@@ -11,7 +11,7 @@ const Tour = ({tours,remove}) => {
                         <p>{info}</p>
                         <br/>
                         <p className='price'>${price}</p>
-                        <button onClick={()=>remove(id)}>Remove</button>
+                        <button onClick={()=>remove(id)}>Not Interested</button>
                     </div>
                 </article>
             )

@@ -31,12 +31,23 @@ function App() {
   }
   
   if(isLoading){
-    return ( <div><h1>Loading....</h1></div>)
+    return ( <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <h1>Loading....</h1>
+        <img
+          src="https://placekitten.com/800/800?image=4"
+          alt="Spinning Cat"
+          style={{ width: '800px', height: '800px', borderRadius: '50%', margin: '20px' }}
+        />
+      </div>)
 }
 if(isError){
-    return ( <div><h1>Error....</h1></div>)
+    return ( <div><h1>Error....</h1>
+    <img
+          src="https://placekitten.com/800/800?image=2"
+          alt="Spinning Cat"
+          style={{ width: '800px', height: '800px', borderRadius: '50%', margin: '20px' }}
+        /></div>)
 }
-
   return (
     <main>
       <div className="me">Matthew's Tour Website</div>
